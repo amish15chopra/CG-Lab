@@ -74,9 +74,6 @@ int main(int argc, char** argv) {
 	glutIdleFunc(idle);
 	glutReshapeFunc(reshape);
 
-	glEnableClientState(GL_VERTEX_ARRAY);
-	glEnableClientState(GL_COLOR_ARRAY);
-
 	myInit();
 	glutMainLoop();
 }
